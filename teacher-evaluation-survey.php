@@ -22,6 +22,7 @@ require_once TES_PATH . 'includes/admin-results.php';
 require_once TES_PATH . 'includes/shortcode-survey.php';
 require_once TES_PATH . 'includes/admin-questions.php';
 require_once TES_PATH . 'includes/admin-students.php';
+require_once TES_PATH . 'includes/admin-settings.php';
 require_once TES_PATH . 'includes/shortcode-teacher-dashboard.php';
 require_once TES_PATH . 'includes/shortcode-advisor-dashboard.php';
 

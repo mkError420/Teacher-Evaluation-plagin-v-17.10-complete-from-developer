@@ -67,5 +67,15 @@ function tes_admin_menu() {
         'tes_students_page'       // Callback must exist
     );
 
+    // Submenu: Settings
+    add_submenu_page(
+        'tes-dashboard',
+        'Settings',
+        'Settings',
+        'manage_options',
+        'tes-settings',
+        'tes_settings_page'       // Callback must exist
+    );
+
 }
 add_action('admin_menu', 'tes_admin_menu');
